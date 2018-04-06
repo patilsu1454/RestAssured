@@ -1,35 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test name="Test">
+<suite name="suite001">
+  <test name="PostValidateRevenueBundle">
     <classes>
-	      <class name="restAPITestCases01.RevenueBundle">
-	      
-		      <methods>
-		 <!--	 <include name="obl_getObligations" />   -->     
-		  <!--    <include name="obl_getObligations01" />    -->  
-		  <!--   <include name="hitAPIandValidateStatusCodeLogAll"/>  -->  
-		   <include name="gettingRevenueBundles02" />
-		    
-		      <exclude name="testcaseOne"/>
-		      </methods>
-		      
-		      
-	      </class>
-	      
-	      <class name="restAPITestCases01.RevenueBundle">
-	      
-		      <methods>
-		 <!--	 <include name="obl_getObligations" />   -->     
-		  <!--    <include name="obl_getObligations01" />    -->  
-		  <!--   <include name="hitAPIandValidateStatusCodeLogAll"/>  -->  
-		   <include name="gettingRevenueBundles02" />
-		    
-		      <exclude name="testcaseOne"/>
-		      </methods>
-		      
-		      
-	      </class>
+    
+    <class name="ois.testSuite.OISPostRevValidatePrem" />
+    <class name="ois.testSuite.OISDummy" />
+    
+   <!--     <class name="ois.testSuite.PostRevenueValidatePremium" /> -->
+	     <!--      <class name="restAPITestCases01.PostValidateRevenueBundle" />  -->
+	  <!--     <class name="restAPITestCases01.ReponseValidation" /> -->
+	   
+          
     </classes>
+    
+  </test> <!-- Test -->
+  
+  <test name="PostValidateRevenueBundle01">
+    <classes>
+    
+    <class name="ois.testSuite.OISOblGetObligations" />
+    <class name="ois.testSuite.OISDummy" />
+    
+   
+    </classes>
+    
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+
+
+
