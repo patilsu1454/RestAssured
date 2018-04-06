@@ -1,0 +1,57 @@
+[
+	"properties": 
+	{
+		"TestCase00": {
+			"Shared_Secret": "kzBVuwq9Y^V-8W#c",
+			"magCode": "EE",
+			"premiumOffer": "XXXX"
+			"premiumId":"05TK1",
+			"aamValueType":"E",
+			"labelStock":"XXXX",
+			"handlingCode":"6"
+		},
+	
+	
+		"TestCase01": {
+			"firstName": "Brian",
+			"lastName": "Schultz",
+			"website": "example.com"
+		},
+		
+		"TestCase02": {
+			"firstName": "Brian",
+			"lastName": "Schultz",
+			"website": "example.com"
+		},
+		
+	},
+	
+	"properties01": 
+	{
+		"TestCase00": {
+			"Shared_Secret": "kzBVuwq9Y^V-8W#c",
+			"magCode": "EE",
+			"premiumOffer": "XXXX"
+			"premiumId":"05TK1",
+			"aamValueType":"E",
+			"labelStock":"XXXX",
+			"handlingCode":"6"
+		},
+	
+			"TestCase01": {
+			"firstName": "Brian",
+			"lastName": "Schultz",
+			"website": "example.com"
+		},
+		
+		"TestCase02": {
+			"firstName": "Brian",
+			"lastName": "Schultz",
+			"website": "example.com"
+		}
+		
+	}
+	
+]
+				
+	

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+	      <class name="restAPITestCases01.RevenueBundle">
+	      
+		      <methods>
+		 <!--	 <include name="obl_getObligations" />   -->     
+		  <!--    <include name="obl_getObligations01" />    -->  
+		  <!--   <include name="hitAPIandValidateStatusCodeLogAll"/>  -->  
+		   <include name="gettingRevenueBundles02" />
+		    
+		      <exclude name="testcaseOne"/>
+		      </methods>
+		      
+		      
+	      </class>
+	      
+	      <class name="restAPITestCases01.RevenueBundle">
+	      
+		      <methods>
+		 <!--	 <include name="obl_getObligations" />   -->     
+		  <!--    <include name="obl_getObligations01" />    -->  
+		  <!--   <include name="hitAPIandValidateStatusCodeLogAll"/>  -->  
+		   <include name="gettingRevenueBundles02" />
+		    
+		      <exclude name="testcaseOne"/>
+		      </methods>
+		      
+		      
+	      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

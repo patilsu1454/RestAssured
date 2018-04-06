@@ -1,0 +1,56 @@
+[
+
+    
+	{             
+		"TestCase00": {
+			"Shared_Secret": "kzBVuwq9Y^V-8W#c",
+			"magCode": "EE",
+			"premiumOffer": "XXXX"
+			"premiumId":"05TK1",
+			"aamValueType":"E",
+			"labelStock":"XXXX",
+			"handlingCode":"6"
+		}
+	},
+	
+	
+	{
+		"TestCase01": {
+			"Shared_Secret": "kzBVuwq9Y^V-8W#c",
+			"magCode": "TK",
+			"premiumOffer": "XXXX"
+			"premiumId":"TETK1",
+			"aamValueType":"E",
+			"labelStock":"XXXX",
+			"handlingCode":"6"
+		}
+	},
+	
+	
+	{
+		"TestCase02": {
+		"Shared_Secret": "kzBVuwq9Y^V-8W#c",
+			"magCode": "AS",
+			"premiumOffer": "XXXX"
+			"premiumId":"00010",
+			"aamValueType":"E",
+			"labelStock":"XXXX",
+			"handlingCode":"6"
+		}
+	},
+	
+	{
+		"TestCase03": {
+		"Shared_Secret": "kzBVuwq9Y^V-8W#c",
+			"magCode": "TK",
+			"premiumOffer": "XXXX"
+			"premiumId":"TETK1",
+			"aamValueType":"E",
+			"labelStock":"NONE",
+			"handlingCode":"6"
+		}
+	}
+	
+	
+	
+]

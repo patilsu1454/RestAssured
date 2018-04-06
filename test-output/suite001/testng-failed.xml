@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite001]">
+  <test name="PostValidateRevenueBundle(failed)">
+    <classes>
+      <class name="ois.testSuite.OISPostRevValidatePrem">
+        <methods>
+          <include name="labelStockAndPremType01"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="aamValueTypeMisMatch"/>
+          <include name="logForTestGroups"/>
+          <include name="logForTestGroups"/>
+          <include name="startUp"/>
+          <include name="premObligationNotExist"/>
+          <include name="premObligationNotExistnn"/>
+          <include name="logForTestGroupsBeforeExecution"/>
+          <include name="logForTestGroupsBeforeExecution"/>
+        </methods>
+      </class> <!-- ois.testSuite.OISPostRevValidatePrem -->
+      <class name="ois.testSuite.OISDummy">
+        <methods>
+          <include name="premObligationNotExistDummy"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- ois.testSuite.OISDummy -->
+    </classes>
+  </test> <!-- PostValidateRevenueBundle(failed) -->
+  <test name="PostValidateRevenueBundle01(failed)">
+    <classes>
+      <class name="ois.testSuite.OISPostRevValidatePrem">
+        <methods>
+          <include name="labelStockAndPremType01"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="aamValueTypeMisMatch"/>
+          <include name="logForTestGroups"/>
+          <include name="logForTestGroups"/>
+          <include name="startUp"/>
+          <include name="premObligationNotExist"/>
+          <include name="premObligationNotExistnn"/>
+          <include name="logForTestGroupsBeforeExecution"/>
+          <include name="logForTestGroupsBeforeExecution"/>
+        </methods>
+      </class> <!-- ois.testSuite.OISPostRevValidatePrem -->
+      <class name="ois.testSuite.OISDummy">
+        <methods>
+          <include name="premObligationNotExistDummy"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- ois.testSuite.OISDummy -->
+    </classes>
+  </test> <!-- PostValidateRevenueBundle01(failed) -->
+</suite> <!-- Failed suite [suite001] -->

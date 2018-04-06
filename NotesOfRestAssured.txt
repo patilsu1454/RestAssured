@@ -1,0 +1,132 @@
+Rest-Assured is an open-source Java Domain-specific language (DSL) that makes testing REST service simple. It simplifies things by eliminating the need to use boiler-plate code to test and validate complex responses. It also supports XML and JSON Request/Responses.
+
+Removes need to create boilerplate code required to interact with a rest service
+Support BDD Given/When/Then syntax
+Integrated seamlessly with Java projects
+----------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=501dpx2IjGY
+
+https://www.youtube.com/watch?v=P-UrsGeKuMQ
+
+REST API Authentication/cookies
+
+----------------------------------------------------------------------------------------------------------------------------
+Awaitility is a DSL that allows you to express expectations of an asynchronous system in a concise and easy to read manner.
+
+https://github.com/awaitility/awaitility/wiki/Usage
+
+https://www.ontestautomation.com/tag/awaitility/
+
+
+Maven dependancy :
+
+ <dependency>
+      <groupId>org.awaitility</groupId>
+      <artifactId>awaitility</artifactId>
+      <version>3.0.0</version>
+      <scope>test</scope>
+</dependency>
+
+
+
+Example:
+
+wait().
+    atMost(10, TimeUnit.SECONDS).
+with().
+    pollInterval(1, TimeUnit.SECONDS).
+    until(() -> this.getNumberOfEmails() == 1);
+it executes a method called getNumberOfEmails()once per second for a duration of 10 seconds, until the result returned by that method equals 1 (in which case my test execution continues) or until the 10 second timeout period has been exceeded, resulting in an exception being thrown. All with a single line of readable code
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+URI and URL
+https://restfulapi.net/resource-naming/
+
+XML and JSON are the most popular representations of resources.
+
+GET http://www.example.com/customers/33245/orders
+Probably a list of orders that customer #33245 has created or owns. 
+Note: we may choose to not support DELETE or PUT for that url since it's operating on a collection.
+
+Here URL is :http://www.example.com/customers/33245/orders
+URI is : http://www.example.com/customers/
+GET only request type available on the URL since it's a collection of customers orders 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+What all challenges are included under API testing?
+
+Challenges are the part of every form of testing and the same goes with API testing too.
+
+Mentioned below are some common challenges that are faced in API testing:
+
+The first and foremost challenge is selecting an appropriate parameter and then its combination.
+Parameter categorization
+Proper sequencing of call is required as this may lead to inadequate coverage in testing.
+Output verification and validation
+Another important challenge is providing input values, which is very difficult as GUI is not available in this case.
+----------------------------------------------------------------------------------------------------------------------------
+
+15) What are the main challenges of API testing?
+
+The main challenges in API testing is
+
+Parameter Selection
+Parameter Combination
+Call sequencing
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What are HTTP Request and HTTP Response?
+An HTTP request method is made up of four components:
+
+Request Method – Get, Post, Put, Delete (these are the common ones)
+Request URI – the URL of the resource
+HTTP Version which indicates HTTP version, for example-HTTP v1.1.
+Request Header – Accept-Language, Accept-Encoding, User-Agent, Host --carries metadata (as key-value pairs) for the HTTP Request message.
+Metadata could be a client (or browser) type, the format that client supports, message body format, and cache settings.
+
+Request Body – this is the data to be sent to the resource
+An HTTP response method is made up of three components:
+
+Response Status Code – 200, 301, 404, 500 (these are the most common ones)
+Response Header Fields – Date, Server, Last-Modified, Content-Type
+HTTP Version which indicates HTTP version, for example-HTTP v1.1.
+Response Body – this is the data that comes back to the client from the server
+
+--------------------------------------------------------------------------------------
+
+Q-9. Name The Most Commonly Used HTTP Methods Supported By REST?
+Ans. There are a few HTTP methods in REST which are more popular.
+
+1. GET -It requests a resource at the request-URL. It should not contain a request body as it will get discarded. Maybe it can be cached locally or on the server.
+2. POST – It submits information to the service for processing; it should typically return the modified or new resource.
+3. PUT – At the request URL it updates the resource.
+4. DELETE – It removes the resource at the request-URL.
+5. OPTIONS -It indicates the supported techniques.
+6. HEAD – It returns meta information about the request URL.
+-------------------------------------------------------------------------
+
+Postman is a rest client that started off as a Chrome browser plugin but recently came out with native versions for both Mac and Windows.
+
+Can be used for both automated and exploratory testing
+Can be run on Mac, Windows, Linux &Chrome Apps
+Has a bunch of integrations like support for Swagger & RAML formats
+Has Run, Test, Document and Monitoring Features
+Doesn’t require learning a new language
+
+
+----------------------------------------------------------------------------------------
+How to perform API Testing? What to check for?
+In API Testing, we make a request to the API with known data and we then analyze the response for validation. Typically, the things which we should check for are:
+
+Data accuracy
+Data validations, data type, data order, data completeness
+Error codes if API returns
+Schema validation
+Authorization checks
+HTTP status codes
+Response timeout implementation
+Non-functional Testing such as Security and Performance Testing
+
+------------------------------------------------------------------------------------------------------------------

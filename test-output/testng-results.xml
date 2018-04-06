@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="16" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite001" duration-ms="14856" started-at="2018-02-23T04:41:15Z" finished-at="2018-02-23T04:41:30Z">
+    <groups>
+    </groups>
+    <test name="PostValidateRevenueBundle" duration-ms="11518" started-at="2018-02-23T04:41:15Z" finished-at="2018-02-23T04:41:26Z">
+      <class name="ois.testSuite.OISDummy">
+        <test-method status="PASS" signature="premObligationNotExistDummy()[pri:5, instance:ois.testSuite.OISDummy@7d9d1a19]" name="premObligationNotExistDummy" duration-ms="1122" started-at="2018-02-23T10:11:25Z" finished-at="2018-02-23T10:11:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- premObligationNotExistDummy -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:ois.testSuite.OISDummy@7d9d1a19]" name="getResult" is-config="true" duration-ms="1" started-at="2018-02-23T10:11:26Z" finished-at="2018-02-23T10:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=premObligationNotExistDummy status=SUCCESS method=OISDummy.premObligationNotExistDummy()[pri:5, instance:ois.testSuite.OISDummy@7d9d1a19] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@411291e5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- ois.testSuite.OISDummy -->
+      <class name="ois.testSuite.OISPostRevValidatePrem">
+        <test-method status="PASS" signature="logForTestGroupsBeforeExecution(org.testng.ITestContext)[pri:0, instance:ois.testSuite.OISPostRevValidatePrem@4883b407]" name="logForTestGroupsBeforeExecution" is-config="true" duration-ms="9" started-at="2018-02-23T10:11:15Z" finished-at="2018-02-23T10:11:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@411291e5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logForTestGroupsBeforeExecution -->
+        <test-method status="PASS" signature="premObligationNotExist()[pri:0, instance:ois.testSuite.OISPostRevValidatePrem@4883b407]" name="premObligationNotExist" duration-ms="6934" started-at="2018-02-23T10:11:15Z" finished-at="2018-02-23T10:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- premObligationNotExist -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:ois.testSuite.OISPostRevValidatePrem@4883b407]" name="getResult" is-config="true" duration-ms="1" started-at="2018-02-23T10:11:22Z" finished-at="2018-02-23T10:11:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=premObligationNotExist status=SUCCESS method=OISPostRevValidatePrem.premObligationNotExist()[pri:0, instance:ois.testSuite.OISPostRevValidatePrem@4883b407] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@411291e5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="premObligationNotExistnn()[pri:1, instance:ois.testSuite.OISPostRevValidatePrem@4883b407]" name="premObligationNotExistnn" duration-ms="1224" started-at="2018-02-23T10:11:22Z" finished-at="2018-02-23T10:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- premObligationNotExistnn -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:ois.testSuite.OISPostRevValidatePrem@4883b407]" name="getResult" is-config="true" duration-ms="1" started-at="2018-02-23T10:11:23Z" finished-at="2018-02-23T10:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=premObligationNotExistnn status=SUCCESS method=OISPostRevValidatePrem.premObligationNotExistnn()[pri:1, instance:ois.testSuite.OISPostRevValidatePrem@4883b407] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@411291e5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="aamValueTypeMisMatch()[pri:2, instance:ois.testSuite.OISPostRevValidatePrem@4883b407]" name="aamValueTypeMisMatch" duration-ms="1081" started-at="2018-02-23T10:11:23Z" finished-at="2018-02-23T10:11:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aamValueTypeMisMatch -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:ois.testSuite.OISPostRevValidatePrem@4883b407]" name="getResult" is-config="true" duration-ms="1" started-at="2018-02-23T10:11:24Z" finished-at="2018-02-23T10:11:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aamValueTypeMisMatch status=SUCCESS method=OISPostRevValidatePrem.aamValueTypeMisMatch()[pri:2, instance:ois.testSuite.OISPostRevValidatePrem@4883b407] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@411291e5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="labelStockAndPremType01()[pri:3, instance:ois.testSuite.OISPostRevValidatePrem@4883b407]" name="labelStockAndPremType01" duration-ms="1038" started-at="2018-02-23T10:11:24Z" finished-at="2018-02-23T10:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- labelStockAndPremType01 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:ois.testSuite.OISPostRevValidatePrem@4883b407]" name="getResult" is-config="true" duration-ms="1" started-at="2018-02-23T10:11:25Z" finished-at="2018-02-23T10:11:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=labelStockAndPremType01 status=SUCCESS method=OISPostRevValidatePrem.labelStockAndPremType01()[pri:3, instance:ois.testSuite.OISPostRevValidatePrem@4883b407] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@411291e5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="logForTestGroups(org.testng.ITestContext)[pri:0, instance:ois.testSuite.OISPostRevValidatePrem@4883b407]" name="logForTestGroups" is-config="true" duration-ms="1" started-at="2018-02-23T10:11:26Z" finished-at="2018-02-23T10:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@411291e5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logForTestGroups -->
+      </class> <!-- ois.testSuite.OISPostRevValidatePrem -->
+    </test> <!-- PostValidateRevenueBundle -->
+    <test name="PostValidateRevenueBundle01" duration-ms="3228" started-at="2018-02-23T04:41:26Z" finished-at="2018-02-23T04:41:30Z">
+      <class name="ois.testSuite.OISOblGetObligations">
+        <test-method status="PASS" signature="startUp(org.testng.ITestContext)[pri:0, instance:ois.testSuite.OISOblGetObligations@4f7d0008]" name="startUp" is-config="true" duration-ms="1730" started-at="2018-02-23T10:11:13Z" finished-at="2018-02-23T10:11:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e28bb87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="logForTestGroupsBeforeExecution(org.testng.ITestContext)[pri:0, instance:ois.testSuite.OISOblGetObligations@4f7d0008]" name="logForTestGroupsBeforeExecution" is-config="true" duration-ms="0" started-at="2018-02-23T10:11:26Z" finished-at="2018-02-23T10:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e28bb87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logForTestGroupsBeforeExecution -->
+        <test-method status="PASS" signature="obl_getObligations02()[pri:0, instance:ois.testSuite.OISOblGetObligations@4f7d0008]" name="obl_getObligations02" duration-ms="2114" started-at="2018-02-23T10:11:26Z" finished-at="2018-02-23T10:11:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- obl_getObligations02 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:ois.testSuite.OISOblGetObligations@4f7d0008]" name="getResult" is-config="true" duration-ms="1" started-at="2018-02-23T10:11:29Z" finished-at="2018-02-23T10:11:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=obl_getObligations02 status=SUCCESS method=OISOblGetObligations.obl_getObligations02()[pri:0, instance:ois.testSuite.OISOblGetObligations@4f7d0008] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e28bb87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="logForTestGroups(org.testng.ITestContext)[pri:0, instance:ois.testSuite.OISOblGetObligations@4f7d0008]" name="logForTestGroups" is-config="true" duration-ms="0" started-at="2018-02-23T10:11:30Z" finished-at="2018-02-23T10:11:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e28bb87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logForTestGroups -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ois.testSuite.OISOblGetObligations@4f7d0008]" name="tearDown" is-config="true" duration-ms="608" started-at="2018-02-23T10:11:30Z" finished-at="2018-02-23T10:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ois.testSuite.OISOblGetObligations -->
+      <class name="ois.testSuite.OISDummy">
+        <test-method status="PASS" signature="premObligationNotExistDummy()[pri:5, instance:ois.testSuite.OISDummy@271053e1]" name="premObligationNotExistDummy" duration-ms="1099" started-at="2018-02-23T10:11:29Z" finished-at="2018-02-23T10:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- premObligationNotExistDummy -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:ois.testSuite.OISDummy@271053e1]" name="getResult" is-config="true" duration-ms="1" started-at="2018-02-23T10:11:30Z" finished-at="2018-02-23T10:11:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=premObligationNotExistDummy status=SUCCESS method=OISDummy.premObligationNotExistDummy()[pri:5, instance:ois.testSuite.OISDummy@271053e1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e28bb87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- ois.testSuite.OISDummy -->
+    </test> <!-- PostValidateRevenueBundle01 -->
+  </suite> <!-- suite001 -->
+</testng-results>
